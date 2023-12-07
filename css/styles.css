@@ -1,0 +1,162 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white: #ffffff;
+  --black: #000000;
+  --back-ground: #2f303a;
+  --btn-ground: #f5f4fa;
+  --btn-focus: #188ce8;
+  --footer-item: rgba(255, 255, 255, 0.6);
+  --border-color: #eeeeee;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+img {
+  display: block;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+}
+
+.section {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ==========HERO========= */
+
+.hero-title {
+  position: relative;
+  width: 1069px;
+  height: 252px;
+  left: 70px;
+  top: 310px;
+
+  font-family: "e-Ukraine Head";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 84px;
+  /* or 105% */
+
+  color: #ffffff;
+
+  /* border: 1px solid #000000; */
+}
+
+.hero-photo {
+  background-image: url("../images/hero-background-1.png");
+  height: 706px;
+}
+
+.header-icons {
+  width: 1440px;
+  height: 271px;
+  left: 0px;
+  top: 0px;
+}
+
+/* ==========ACTIVITY========= */
+
+.about-activity {
+}
+
+.activity-icons {
+  background-color: #221f21;
+  height: 241px;
+}
+
+.activity-list li {
+  display: inline-block;
+}
+
+/* ==========ABOUTUS========= */
+
+.about-us {
+  background-color: #d6d9d5;
+  background-image: url("../images/aboutus.png");
+  height: 632px;
+  margin-bottom: 100px;
+}
+
+/* ==========ABOUTASSOZ========= */
+
+.about-association {
+  height: 931px;
+}
+
+.about-association-list li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+/* ==========OURPROJECTS========= */
+
+.about-projects {
+  background-color: #f8fbf8;
+  height: 815px;
+}
+
+.about-projects-list li {
+  display: inline-block;
+  margin-right: 22px;
+}
+
+/* ==========ABOUTCUMM========= */
+
+.about-community {
+  height: 965px;
+}
+
+.about-community-list li {
+  display: inline-block;
+}
+
+/* ==========DIRECTOR========= */
+
+/* ==========CUMM========= */
+
+/* ==========VASHADUMKA========= */
+
+.about-opinion {
+  background-image: url("../images/memberground.png");
+  height: 500px;
+}
+
+/* ==========NEWS========= */
+
+.news {
+  height: 1905px;
+  background-color: #d6d9d5;
+}
